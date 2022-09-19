@@ -148,7 +148,7 @@ function checkgameover(){
         case (snake[0].y < 0):
             running = false;
             break;
-        case (snake[0].x >= gameheight):
+        case (snake[0].y >= gameheight):
             running = false;
             break;
     }
